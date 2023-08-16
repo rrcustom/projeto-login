@@ -38,7 +38,7 @@ section#login {
 
     transition: width .3s, height .3s;
     transition-timing-function: ease;
-    transform: translate(-50%, -50%);/* Ideal que toda transformação ou animação, ou transição fique no final da linha. */
+    /*transform: translate(-50%, -50%); Ideal que toda transformação ou animação, ou transição fique no final da linha. */
 }
 
 section#login > div#imagem {
@@ -94,7 +94,7 @@ div.campo > input {
     border: 0;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-13px); /* Ideal que toda transformação ou animação, ou transição fique no final da linha. */
+    /*transform: translateY(-13px); Ideal que toda transformação ou animação, ou transição fique no final da linha. */
 }
 
 div.campo > input:focus-within {
